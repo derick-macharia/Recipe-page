@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-color:hsl(29, 44%, 86%);
+    font-size: 16px; 
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin-left: 350px;
+    margin-right: 360px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family:[Young Serif](https://fonts.google.com/specimen/Young+Serif)
+    font-weight: 400;
+}
+.image{
+    border-radius: 10px;
+}
+.time{
+    padding: 20px;
+    padding-left: 30px;
+    background-color:hsla(12, 38%, 95%, 0.438);
+    border-radius: 15px;
+    margin: 30px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.attribution{
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+    padding-bottom: 15px;
+}
+.Ingredients{
+    padding-left: 30px;
+    margin: 10px;
+}
+.Instructions{
+    margin: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+.table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#units{
+    color:hsl(0, 51%, 32%) ;
+    font-weight: bold ;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;    
+}
+tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+td{
+    border: none;
+    padding: 8px;
+}
+/* #row{
+    padding-bottom: 1px;
+    border: 1px solid black;
+} */
+#preparation{
+    font-size: 20px;
+    color: hsla(320, 50%, 33%, 0.945);
+    padding-bottom: 15px
+}
+#heads{
+    font-size: 30px;
+    color: hsl(0, 51%, 32%);
+    padding: 15px;
+}
+#list{
+    padding-left: 30px;
+}
+ol li::marker{
+    color: hsl(0, 51%, 32%);
+    font-weight: bolder;
+}
+li{
+    /* color: black; */
+}
